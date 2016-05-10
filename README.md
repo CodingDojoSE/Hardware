@@ -21,8 +21,13 @@
 1. Abrir o Terminal e clonar o reposirório base:
 
 	$ cd ~/			(ir para a pasta home)
+	
 	$ mkdir dojo		(incluir uma pasta chamada dojo)
+	
 	$ cd dojo		(entrar na pasta dojo)
+	
+	
+	-- Pegue o link do resoporírio do Peojeto -- 
 	
 	$ git clone https://github.com/CodingDojoSE/**********
 
