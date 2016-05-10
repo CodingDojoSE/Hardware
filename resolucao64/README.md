@@ -1,8 +1,8 @@
  
 Resolução feita no INE 64, compartilhada entre:
 
-- Mariany Ferreira (Copiloto)
--
+  Mariany Ferreira (Copiloto)
+
 
 Fontes de pesquisa / Tutorial:
 
