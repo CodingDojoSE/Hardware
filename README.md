@@ -64,6 +64,8 @@
 	$ git commit -m ' coloque sua mensagem de commit aqui'
 	
 	$ git push
+	
+	
 		informe seu usuário
 		informe sua senha 
 
