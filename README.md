@@ -8,6 +8,7 @@
 2. Incluir e executar a máquina virtual conforme configurações:
 
 3. Abrir o terminal da máquina virtual:
+
 	$ cd cd /usr/local/altera/13.0sp1/quartus/bin/    		-- entrar no diretório do Quartus
 	$ ls                                              		-- listar todos os aquivos da pasta
 	$ ./quartus                                      		-- executar o quartus
