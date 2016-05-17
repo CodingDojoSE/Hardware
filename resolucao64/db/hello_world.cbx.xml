@@ -1,9 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="hello_world">
-		<CBX_INST_ENTRY INSTANCE_NAME="|blinker|blinker_nios2_proc:nios2_proc|blinker_nios2_proc_nios2_oci:the_blinker_nios2_proc_nios2_oci|blinker_nios2_proc_nios2_ocimem:the_blinker_nios2_proc_nios2_ocimem|blinker_nios2_proc_ociram_sp_ram_module:blinker_nios2_proc_ociram_sp_ram|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_g381.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|blinker|blinker_nios2_proc:nios2_proc|blinker_nios2_proc_register_bank_a_module:blinker_nios2_proc_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_cmg1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|blinker|blinker_nios2_proc:nios2_proc|blinker_nios2_proc_register_bank_b_module:blinker_nios2_proc_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_dmg1.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|blinker|blinker_onchip_memory:onchip_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_eoc1.tdf"/>
-	</PROJECT>
-</LOG_ROOT>
