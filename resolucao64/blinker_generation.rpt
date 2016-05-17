@@ -1,0 +1,418 @@
+Info: Starting: Create simulation model
+Info: ip-generate --project-directory=/home/user/hello_world/ --output-directory=/home/user/hello_world/blinker/simulation/ --file-set=SIM_VHDL --report-file=sopcinfo:/home/user/hello_world/blinker.sopcinfo --report-file=html:/home/user/hello_world/blinker.html --report-file=sip:/home/user/hello_world/blinker/simulation/blinker.sip --report-file=csv:/home/user/hello_world/blinker.csv --report-file=spd:/home/user/hello_world/blinker.spd --report-file=cmp:/home/user/hello_world/blinker.cmp --system-info=DEVICE_FAMILY="Cyclone IV GX" --system-info=DEVICE=Unknown --system-info=DEVICE_SPEEDGRADE=Unknown --component-file=/home/user/hello_world/blinker.qsys
+Progress: Loading hello_world/blinker.qsys
+Progress: Reading input file
+Progress: Adding clock_main [clock_source 13.0]
+Progress: Parameterizing module clock_main
+Progress: Adding nios2_proc [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_proc
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory
+Progress: Adding switcher [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module switcher
+Progress: Adding led [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module led
+Progress: Adding sysid_1337 [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid_1337
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: blinker.switcher: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: blinker.sysid_1337: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: blinker.sysid_1337: Time stamp will be automatically updated when this component is generated.
+Info: blinker: Generating blinker "blinker" for SIM_VHDL
+Info: pipeline_bridge_swap_transform: After transform: 6 modules, 18 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 13 modules, 39 connections
+Info: merlin_domain_transform: After transform: 26 modules, 106 connections
+Info: merlin_router_transform: After transform: 33 modules, 127 connections
+Info: reset_adaptation_transform: After transform: 34 modules, 129 connections
+Info: merlin_network_to_switch_transform: After transform: 47 modules, 157 connections
+Info: merlin_mm_transform: After transform: 47 modules, 157 connections
+Info: merlin_interrupt_mapper_transform: After transform: 48 modules, 160 connections
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: nios2_proc: Starting RTL generation for module 'blinker_nios2_proc'
+Info: nios2_proc:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=blinker_nios2_proc --dir=/tmp/alt6931_8493374581309065708.dir/0001_nios2_proc_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --vhdl --config=/tmp/alt6931_8493374581309065708.dir/0001_nios2_proc_gen//blinker_nios2_proc_processor_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt6931_8493374581309065708.dir/0001_nios2_proc_gen/    --bogus  ]
+Info: nios2_proc: # 2016.05.10 19:13:20 (*) Starting Nios II generation
+Info: nios2_proc: # 2016.05.10 19:13:20 (*)   Checking for plaintext license.
+Info: nios2_proc: # 2016.05.10 19:13:25 (*)   Couldn't query license setup in Quartus directory /usr/local/altera/13.0sp1/quartus
+Info: nios2_proc: # 2016.05.10 19:13:25 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_proc: # 2016.05.10 19:13:25 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_proc: # 2016.05.10 19:13:25 (*)   Plaintext license not found.
+Info: nios2_proc: # 2016.05.10 19:13:25 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_proc: # 2016.05.10 19:13:25 (*)   Elaborating CPU configuration settings
+Info: nios2_proc: # 2016.05.10 19:13:25 (*)   Creating all objects for CPU
+Info: nios2_proc: # 2016.05.10 19:13:27 (*)   Creating '/tmp/alt6931_8493374581309065708.dir/0001_nios2_proc_gen//blinker_nios2_proc_nios2_waves.do'
+Info: nios2_proc: # 2016.05.10 19:13:27 (*)   Generating RTL from CPU objects
+Info: nios2_proc: # 2016.05.10 19:13:27 (*)   Creating plain-text RTL
+Info: nios2_proc: # 2016.05.10 19:13:33 (*) Done Nios II generation
+Info: nios2_proc: Done RTL generation for module 'blinker_nios2_proc'
+Info: nios2_proc: "blinker" instantiated altera_nios2_qsys "nios2_proc"
+Info: onchip_memory: Starting RTL generation for module 'blinker_onchip_memory'
+Info: onchip_memory:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/linux/perl/bin/perl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=blinker_onchip_memory --dir=/tmp/alt6931_8493374581309065708.dir/0002_onchip_memory_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --vhdl --config=/tmp/alt6931_8493374581309065708.dir/0002_onchip_memory_gen//blinker_onchip_memory_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt6931_8493374581309065708.dir/0002_onchip_memory_gen/  ]
+Info: onchip_memory: Done RTL generation for module 'blinker_onchip_memory'
+Info: onchip_memory: "blinker" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: switcher: Starting RTL generation for module 'blinker_switcher'
+Info: switcher:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/linux/perl/bin/perl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=blinker_switcher --dir=/tmp/alt6931_8493374581309065708.dir/0003_switcher_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --vhdl --config=/tmp/alt6931_8493374581309065708.dir/0003_switcher_gen//blinker_switcher_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt6931_8493374581309065708.dir/0003_switcher_gen/  ]
+Info: switcher: Done RTL generation for module 'blinker_switcher'
+Info: switcher: "blinker" instantiated altera_avalon_pio "switcher"
+Info: led: Starting RTL generation for module 'blinker_led'
+Info: led:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/linux/perl/bin/perl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=blinker_led --dir=/tmp/alt6931_8493374581309065708.dir/0004_led_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --vhdl --config=/tmp/alt6931_8493374581309065708.dir/0004_led_gen//blinker_led_component_configuration.pl  --do_build_sim=1    --sim_dir=/tmp/alt6931_8493374581309065708.dir/0004_led_gen/  ]
+Info: led: Done RTL generation for module 'blinker_led'
+Info: led: "blinker" instantiated altera_avalon_pio "led"
+Info: sysid_1337: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: sysid_1337: Generated simulation model blinker_sysid_1337.vho
+Info: sysid_1337: "blinker" instantiated altera_avalon_sysid_qsys "sysid_1337"
+Info: nios2_proc_instruction_master_translator: "blinker" instantiated altera_merlin_master_translator "nios2_proc_instruction_master_translator"
+Info: nios2_proc_jtag_debug_module_translator: "blinker" instantiated altera_merlin_slave_translator "nios2_proc_jtag_debug_module_translator"
+Info: nios2_proc_instruction_master_translator_avalon_universal_master_0_agent: "blinker" instantiated altera_merlin_master_agent "nios2_proc_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent: "blinker" instantiated altera_merlin_slave_agent "nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: Generated simulation model blinker_nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo.vho
+Info: nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "blinker" instantiated altera_avalon_sc_fifo "nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: addr_router: "blinker" instantiated altera_merlin_router "addr_router"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: addr_router_001: "blinker" instantiated altera_merlin_router "addr_router_001"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: id_router: "blinker" instantiated altera_merlin_router "id_router"
+Warning: Parallel compilation is not licensed and has been disabled
+Info: id_router_002: "blinker" instantiated altera_merlin_router "id_router_002"
+Info: rst_controller: "blinker" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_demux: Generated simulation model blinker_cmd_xbar_demux.vho
+Info: cmd_xbar_demux: "blinker" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_demux_001: Generated simulation model blinker_cmd_xbar_demux_001.vho
+Info: cmd_xbar_demux_001: "blinker" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: cmd_xbar_mux: Generated simulation model blinker_cmd_xbar_mux.vho
+Info: cmd_xbar_mux: "blinker" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux_002: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_demux_002: Generated simulation model blinker_rsp_xbar_demux_002.vho
+Info: rsp_xbar_demux_002: "blinker" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_mux: Generated simulation model blinker_rsp_xbar_mux.vho
+Info: rsp_xbar_mux: "blinker" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: rsp_xbar_mux_001: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: rsp_xbar_mux_001: Generated simulation model blinker_rsp_xbar_mux_001.vho
+Info: rsp_xbar_mux_001: "blinker" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: irq_mapper: Generating VHDL simulation model
+Warning: Parallel compilation is not licensed and has been disabled
+Info: irq_mapper: Generated simulation model blinker_irq_mapper.vho
+Info: irq_mapper: "blinker" instantiated altera_irq_mapper "irq_mapper"
+Info: blinker: Done blinker" with 23 modules, 166 files, 5476153 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=/home/user/hello_world/blinker.spd --output-directory=/home/user/hello_world/blinker/simulation/
+Info: Doing: ip-make-simscript --spd=/home/user/hello_world/blinker.spd --output-directory=/home/user/hello_world/blinker/simulation/
+Info: Generating the following file(s) for MODELSIM simulator in /home/user/hello_world/blinker/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in /home/user/hello_world/blinker/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in /home/user/hello_world/blinker/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	22 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERAPRO simulator in /home/user/hello_world/blinker/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: 
+Info: Starting: Create testbench Qsys system
+Info: /home/user/hello_world/blinker/testbench/blinker.ipx
+Info: ip-generate --project-directory=/home/user/hello_world/ --output-directory=/home/user/hello_world/ --report-file=sopcinfo:/home/user/hello_world/blinker.sopcinfo --report-file=html:/home/user/hello_world/blinker.html --system-info=DEVICE_FAMILY="Cyclone IV GX" --system-info=DEVICE=Unknown --system-info=DEVICE_SPEEDGRADE=Unknown --component-file=/home/user/hello_world/blinker.qsys
+Progress: Loading hello_world/blinker.qsys
+Progress: Reading input file
+Progress: Adding clock_main [clock_source 13.0]
+Progress: Parameterizing module clock_main
+Progress: Adding nios2_proc [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_proc
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory
+Progress: Adding switcher [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module switcher
+Progress: Adding led [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module led
+Progress: Adding sysid_1337 [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid_1337
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: blinker.switcher: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: blinker.sysid_1337: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: blinker.sysid_1337: Time stamp will be automatically updated when this component is generated.
+Info: ip-generate succeeded.
+Info: Loading component library for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (1) searching /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/root_components.ipx
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/root_components.ipx: Loading now from components.ipx
+Info: Reading index /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/ip_component_categories.ipx
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/ip_component_categories.ipx described 0 plugins, 0 paths, in 0.09 seconds
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0.09 seconds
+Info: Reading index /usr/local/altera/13.0sp1/ip/altera/altera_components.ipx
+Info: /usr/local/altera/13.0sp1/ip/altera/altera_components.ipx described 848 plugins, 0 paths, in 0.54 seconds
+Info: /usr/local/altera/13.0sp1/ip/**/* matched 97 files in 0.56 seconds
+Info: /home/user/.altera.quartus/ip/13.0sp1/**/* matched 0 files in 0.00 seconds
+Info: /home/user/hello_world/blinker/testbench/ip/**/* matched 0 files in 0.00 seconds
+Info: Reading index /home/user/hello_world/blinker/testbench/blinker.ipx
+Progress: Loading hello_world/blinker.qsys
+Info: /home/user/hello_world/* matched 13 files in 0.01 seconds
+Info: /home/user/hello_world/ip/**/* matched 0 files in 0.00 seconds
+Info: /home/user/hello_world/*/* matched 6 files in 0.02 seconds
+Info: /home/user/hello_world/blinker/testbench/blinker.ipx described 0 plugins, 3 paths, in 0.04 seconds
+Info: /home/user/hello_world/blinker/testbench/* matched 1 files in 0.05 seconds
+Info: /home/user/hello_world/blinker/testbench/*/* matched 0 files in 0.00 seconds
+Info: Reading index /usr/local/altera/13.0sp1/quartus/sopc_builder/builtin.ipx
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/builtin.ipx described 103 plugins, 0 paths, in 0.05 seconds
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/**/* matched 10 files in 0.06 seconds
+Info: Reading index /usr/local/altera/13.0sp1/quartus/common/librarian/factories/index.ipx
+Info: /usr/local/altera/13.0sp1/quartus/common/librarian/factories/index.ipx described 151 plugins, 0 paths, in 0.08 seconds
+Info: /usr/local/altera/13.0sp1/quartus/common/librarian/factories/**/* matched 4 files in 0.08 seconds
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0.00 seconds
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/root_components.ipx described 0 plugins, 9 paths, in 0.85 seconds
+Info: /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0.85 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Loading presets
+Progress: Loading presets
+Info: Running script /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/tbgen.tcl
+Info: acds::register_package_version 12.1
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #2 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #2 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: blinker
+Info: TB_Gen: System design is: blinker
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clock_main CLASS_NAME
+Info: get_instance_assignment clock_main testbench.partner.map.clk_in
+Info: get_interface_property switcher_external_connection EXPORT_OF
+Info: get_instance_property switcher CLASS_NAME
+Info: get_instance_assignment switcher testbench.partner.map.external_connection
+Info: get_interface_property led_external_connection EXPORT_OF
+Info: get_instance_property led CLASS_NAME
+Info: get_instance_assignment led testbench.partner.map.external_connection
+Info: send_message Info TB_Gen: Creating testbench system : blinker_tb with clock and reset BFMs
+Info: TB_Gen: Creating testbench system : blinker_tb with clock and reset BFMs
+Info: create_system blinker_tb
+Info: add_instance blinker_inst blinker 
+Info: set_use_testbench_naming_pattern true
+Info: get_instance_interfaces blinker_inst
+Info: get_instance_interface_property blinker_inst clk CLASS_NAME
+Info: get_instance_interface_property blinker_inst switcher_external_connection CLASS_NAME
+Info: get_instance_interface_property blinker_inst led_external_connection CLASS_NAME
+Info: get_instance_interface_property blinker_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property blinker_inst clk CLASS_NAME
+Info: add_instance blinker_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property blinker_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value blinker_inst clk clockRate
+Info: set_instance_parameter_value blinker_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value blinker_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property blinker_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property blinker_inst clk CLASS_NAME
+Info: get_instance_interfaces blinker_inst_clk_bfm
+Info: get_instance_interface_property blinker_inst_clk_bfm clk CLASS_NAME
+Info: add_connection blinker_inst_clk_bfm.clk blinker_inst.clk
+Info: send_message Info TB_Gen: Saving testbench system: blinker_tb.qsys
+Info: TB_Gen: Saving testbench system: blinker_tb.qsys
+Info: save_system blinker_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: /home/user/hello_world/blinker/testbench/blinker_tb.qsys
+Info: Done
+Info: Finished: Create testbench Qsys system
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=/home/user/hello_world/ --output-directory=/home/user/hello_world/blinker/synthesis/ --file-set=QUARTUS_SYNTH --report-file=sopcinfo:/home/user/hello_world/blinker.sopcinfo --report-file=html:/home/user/hello_world/blinker.html --report-file=qip:/home/user/hello_world/blinker/synthesis/blinker.qip --report-file=cmp:/home/user/hello_world/blinker.cmp --report-file=svd --system-info=DEVICE_FAMILY="Cyclone IV GX" --system-info=DEVICE=Unknown --system-info=DEVICE_SPEEDGRADE=Unknown --component-file=/home/user/hello_world/blinker.qsys --language=VHDL
+Progress: Loading hello_world/blinker.qsys
+Progress: Reading input file
+Progress: Adding clock_main [clock_source 13.0]
+Progress: Parameterizing module clock_main
+Progress: Adding nios2_proc [altera_nios2_qsys 13.0]
+Progress: Parameterizing module nios2_proc
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 13.0.1.99.2]
+Progress: Parameterizing module onchip_memory
+Progress: Adding switcher [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module switcher
+Progress: Adding led [altera_avalon_pio 13.0.1.99.2]
+Progress: Parameterizing module led
+Progress: Adding sysid_1337 [altera_avalon_sysid_qsys 13.0]
+Progress: Parameterizing module sysid_1337
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: blinker.switcher: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: blinker.sysid_1337: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: blinker.sysid_1337: Time stamp will be automatically updated when this component is generated.
+Info: blinker: Generating blinker "blinker" for QUARTUS_SYNTH
+Info: pipeline_bridge_swap_transform: After transform: 6 modules, 18 connections
+Info: No custom instruction connections, skipping transform 
+Info: merlin_translator_transform: After transform: 13 modules, 39 connections
+Info: merlin_domain_transform: After transform: 26 modules, 106 connections
+Info: merlin_router_transform: After transform: 33 modules, 127 connections
+Info: reset_adaptation_transform: After transform: 34 modules, 129 connections
+Info: merlin_network_to_switch_transform: After transform: 47 modules, 157 connections
+Info: merlin_mm_transform: After transform: 47 modules, 157 connections
+Info: merlin_interrupt_mapper_transform: After transform: 48 modules, 160 connections
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Warning: blinker: "No matching role found for rst_controller:reset_out:reset_req (reset_req)"
+Info: nios2_proc: Starting RTL generation for module 'blinker_nios2_proc'
+Info: nios2_proc:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/eperl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -I /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2 -- /usr/local/altera/13.0sp1/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=blinker_nios2_proc --dir=/tmp/alt6931_8493374581309065708.dir/0050_nios2_proc_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --verilog --config=/tmp/alt6931_8493374581309065708.dir/0050_nios2_proc_gen//blinker_nios2_proc_processor_configuration.pl  --do_build_sim=0    --bogus  ]
+Info: nios2_proc: # 2016.05.10 19:16:18 (*) Starting Nios II generation
+Info: nios2_proc: # 2016.05.10 19:16:18 (*)   Checking for plaintext license.
+Info: nios2_proc: # 2016.05.10 19:16:22 (*)   Couldn't query license setup in Quartus directory /usr/local/altera/13.0sp1/quartus
+Info: nios2_proc: # 2016.05.10 19:16:22 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_proc: # 2016.05.10 19:16:22 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_proc: # 2016.05.10 19:16:22 (*)   Plaintext license not found.
+Info: nios2_proc: # 2016.05.10 19:16:22 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_proc: # 2016.05.10 19:16:22 (*)   Elaborating CPU configuration settings
+Info: nios2_proc: # 2016.05.10 19:16:22 (*)   Creating all objects for CPU
+Info: nios2_proc: # 2016.05.10 19:16:26 (*)   Generating RTL from CPU objects
+Info: nios2_proc: # 2016.05.10 19:16:26 (*)   Creating plain-text RTL
+Info: nios2_proc: # 2016.05.10 19:16:34 (*) Done Nios II generation
+Info: nios2_proc: Done RTL generation for module 'blinker_nios2_proc'
+Info: nios2_proc: "blinker" instantiated altera_nios2_qsys "nios2_proc"
+Info: onchip_memory: Starting RTL generation for module 'blinker_onchip_memory'
+Info: onchip_memory:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/linux/perl/bin/perl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=blinker_onchip_memory --dir=/tmp/alt6931_8493374581309065708.dir/0051_onchip_memory_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --verilog --config=/tmp/alt6931_8493374581309065708.dir/0051_onchip_memory_gen//blinker_onchip_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory: Done RTL generation for module 'blinker_onchip_memory'
+Info: onchip_memory: "blinker" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: switcher: Starting RTL generation for module 'blinker_switcher'
+Info: switcher:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/linux/perl/bin/perl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=blinker_switcher --dir=/tmp/alt6931_8493374581309065708.dir/0052_switcher_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --verilog --config=/tmp/alt6931_8493374581309065708.dir/0052_switcher_gen//blinker_switcher_component_configuration.pl  --do_build_sim=0  ]
+Info: switcher: Done RTL generation for module 'blinker_switcher'
+Info: switcher: "blinker" instantiated altera_avalon_pio "switcher"
+Info: led: Starting RTL generation for module 'blinker_led'
+Info: led:   Generation command is [exec /usr/local/altera/13.0sp1/quartus/linux/perl/bin/perl -I /usr/local/altera/13.0sp1/quartus/common/ip/altera/common/perl/5.8.3 -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/europa -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin/perl_lib -I /usr/local/altera/13.0sp1/quartus/sopc_builder/bin -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/common -I /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /usr/local/altera/13.0sp1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=blinker_led --dir=/tmp/alt6931_8493374581309065708.dir/0053_led_gen/ --quartus_dir=/usr/local/altera/13.0sp1/quartus --verilog --config=/tmp/alt6931_8493374581309065708.dir/0053_led_gen//blinker_led_component_configuration.pl  --do_build_sim=0  ]
+Info: led: Done RTL generation for module 'blinker_led'
+Info: led: "blinker" instantiated altera_avalon_pio "led"
+Info: sysid_1337: "blinker" instantiated altera_avalon_sysid_qsys "sysid_1337"
+Info: nios2_proc_instruction_master_translator: "blinker" instantiated altera_merlin_master_translator "nios2_proc_instruction_master_translator"
+Info: nios2_proc_jtag_debug_module_translator: "blinker" instantiated altera_merlin_slave_translator "nios2_proc_jtag_debug_module_translator"
+Info: nios2_proc_instruction_master_translator_avalon_universal_master_0_agent: "blinker" instantiated altera_merlin_master_agent "nios2_proc_instruction_master_translator_avalon_universal_master_0_agent"
+Info: nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent: "blinker" instantiated altera_merlin_slave_agent "nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent"
+Info: nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo: "blinker" instantiated altera_avalon_sc_fifo "nios2_proc_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo"
+Info: addr_router: "blinker" instantiated altera_merlin_router "addr_router"
+Info: addr_router_001: "blinker" instantiated altera_merlin_router "addr_router_001"
+Info: id_router: "blinker" instantiated altera_merlin_router "id_router"
+Info: id_router_002: "blinker" instantiated altera_merlin_router "id_router_002"
+Info: rst_controller: "blinker" instantiated altera_reset_controller "rst_controller"
+Info: cmd_xbar_demux: "blinker" instantiated altera_merlin_demultiplexer "cmd_xbar_demux"
+Info: cmd_xbar_demux_001: "blinker" instantiated altera_merlin_demultiplexer "cmd_xbar_demux_001"
+Info: cmd_xbar_mux: "blinker" instantiated altera_merlin_multiplexer "cmd_xbar_mux"
+Info: rsp_xbar_demux_002: "blinker" instantiated altera_merlin_demultiplexer "rsp_xbar_demux_002"
+Info: rsp_xbar_mux: "blinker" instantiated altera_merlin_multiplexer "rsp_xbar_mux"
+Info: Reusing file /home/user/hello_world/blinker/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_xbar_mux_001: "blinker" instantiated altera_merlin_multiplexer "rsp_xbar_mux_001"
+Info: Reusing file /home/user/hello_world/blinker/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: irq_mapper: "blinker" instantiated altera_irq_mapper "irq_mapper"
+Info: blinker: Done blinker" with 23 modules, 78 files, 1549868 bytes
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

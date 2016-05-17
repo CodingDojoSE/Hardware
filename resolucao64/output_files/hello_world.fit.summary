@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 17 19:02:09 2016
+Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
+Revision Name : hello_world
+Top-level Entity Name : blinker
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Total logic elements : 1,415 / 33,216 ( 4 % )
+    Total combinational functions : 1,330 / 33,216 ( 4 % )
+    Dedicated logic registers : 772 / 33,216 ( 2 % )
+Total registers : 772
+Total pins : 17 / 475 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 141,312 / 483,840 ( 29 % )
+Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
