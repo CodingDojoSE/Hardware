@@ -9,7 +9,7 @@
 
 3. Abrir o terminal da máquina virtual:
 
-	$ cd cd /usr/local/altera/13.0sp1/quartus/bin/    (entrar no diretório do Quartus)
+	$ cd /usr/local/altera/13.0sp1/quartus/bin/    (entrar no diretório do Quartus)
 	
 	$ ls                                              (listar todos os aquivos da pasta)
 	
