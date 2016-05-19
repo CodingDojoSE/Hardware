@@ -74,7 +74,7 @@
 	$ git push
 	
 	
-		informe seu usuário
-		informe sua senha 
+		informe seu usuário no github 
+		informe sua senha no github
 
 		
