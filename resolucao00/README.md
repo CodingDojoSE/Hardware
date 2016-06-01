@@ -1,4 +1,4 @@
-Resolução compartilhada entre:
+ResoluÃ§Ã£o compartilhada entre:
 
 
 
@@ -12,4 +12,4 @@ Fontes de pesquisa / Tutorial:
 
 
 
-obs: Completo, porém leds não piscam
+obs: Completo
